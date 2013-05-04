@@ -1,0 +1,58 @@
+div#slideShowItems{
+	  	height:200px;
+		overflow:hidden;
+		position:relative;
+	}
+	
+	div#slideShowItems div{
+		width:760px;
+		padding-left:10px;
+		padding-right:10px;
+		font-family:Tahoma;
+	}
+	
+	
+	div#slideShowItems img {
+		margin-right:13px;
+		float:left;
+	}
+	
+	ul#slideShowCount{
+		margin:0px;
+		padding:0px;
+		width:780px;
+	}
+	ul#slideShowCount li.slide{
+		line-height:14px;
+		float:right;
+		cursor:pointer;
+		width:26px;
+		height:18px;
+		display:block;
+		background: transparent url(/dab/assets/images/slide/tab.png) no-repeat scroll left top;
+		border: 0;
+	}
+	
+	ul#slideShowCount li.slide span{
+		padding-left:10px;
+		color:white;
+		font-weight:bold;
+		font-size:12px;
+		
+	}
+	
+	ul#slideShowCount li.slide:hover{
+		background-position:left -18px;
+	}
+	
+	ul#slideShowCount li.slide.selectedTab{
+		background-position:left -18px;
+	}
+	div#slideShow{
+		
+		width:780px;
+	}
+	.PONT{
+	font-family:Tahoma;
+	text-align:justify;
+	}
