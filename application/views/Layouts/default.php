@@ -160,7 +160,7 @@ function writeIslamicDate(adjustment) {
   </tr>
   <tr>
     <td colspan="2" class="footer">
-    	<center><a href="#">Home</a> || <a href="#">Jobs</a> || <a href="#">Publications</a> || <a href="#">Contact Us</a> || <a href="#">centralbank.gov.af</a></center>
+    	<center><a href="#">Home1</a> || <a href="#">Jobs</a> || <a href="#">Publications</a> || <a href="#">Contact Us</a> || <a href="#">centralbank.gov.af</a></center>
 
     </td>
   </tr>
