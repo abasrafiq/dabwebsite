@@ -6,6 +6,10 @@
     # Send request via index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
+<<<<<<< HEAD
     RewriteRule ^(.*)$ /dab/public_html/index.php/$1 [L]
+=======
+    RewriteRule ^(.*)$ ./index.php/$1 [L]
+>>>>>>> dad5081c1bd8b20275547c3f5a6880ff4ce7c88c
 
 </IfModule>
